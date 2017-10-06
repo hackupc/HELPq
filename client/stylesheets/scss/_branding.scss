@@ -20,7 +20,7 @@ $brand-success: rgb(46, 204, 113);
 $brand-danger: #FF490A;
 
 // Black
-$black: #2d2d2d;
+$black: #494949;
 
 // --------------
 // Colors used for social auth
@@ -78,7 +78,11 @@ $github-gray: #e4e4e4;
   // background: $brand-primary;
 
   // Single background image covering the entire page
-    background: url(/assets/images/reticula_bcn_web.png) no-repeat center center;
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.5), 
+      rgba(255, 255, 255, 0.5)
+    ),
+     url(/assets/images/reticula_bcn_web.png) no-repeat center center;
     background-size: cover;
 
   // Background image that repeats
@@ -92,7 +96,11 @@ $github-gray: #e4e4e4;
   color: black;
 
   // Single background image covering
-     background: url(/assets/images/reticula_bcn_web.png) no-repeat center center;
+     background: linear-gradient(
+      rgba(255, 255, 255, 0.5), 
+      rgba(255, 255, 255, 0.5)
+    ),
+     url(/assets/images/reticula_bcn_web.png) no-repeat center center;
      background-size: cover;
 
   // Basic white on brand color:
