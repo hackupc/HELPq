@@ -1,4 +1,6 @@
 *.iml
 .idea/
 private/config.json
+node_modules/
+npm-debug.log
 .sass-cache/
